@@ -1,0 +1,100 @@
+ok   retention.pooled.all: node 3335/6947 (48.0%)  python 3335/6947
+ok   retention.pooled.perplexity: node 537/1000 (53.7%)  python 537/1000
+ok   retention.pooled.openai: node 611/1300 (47.0%)  python 611/1300
+ok   retention.pooled.gemini: node 937/2029 (46.2%)  python 937/2029
+ok   retention.pooled.claude: node 563/1033 (54.5%)  python 563/1033
+ok   retention.pooled.aioverviews: node 502/1123 (44.7%)  python 502/1123
+ok   retention.pooled.aimode: node 185/462 (40.0%)  python 185/462
+ok   retention.pooled.google_surfaces: node 687/1585 (43.3%)  python 687/1585
+ok   retention.pooled.llm_apis: node 2648/5362 (49.4%)  python 2648/5362
+ok   retention.by_pair.2026-W36->2026-W37.all: node 782/1416 (55.2%)  python 782/1416
+ok   retention.by_pair.2026-W37->2026-W38.all: node 580/1262 (46.0%)  python 580/1262
+ok   retention.by_pair.2026-W38->2026-W39.all: node 645/1220 (52.9%)  python 645/1220
+ok   retention.by_pair.2026-W39->2026-W40.all: node 703/1575 (44.6%)  python 703/1575
+ok   retention.by_pair.2026-W40->2026-W41.all: node 625/1474 (42.4%)  python 625/1474
+ok   retention.by_pair.2026-W36->2026-W37.perplexity: node 139/213 (65.3%)  python 139/213
+ok   retention.by_pair.2026-W36->2026-W37.openai: node 133/255 (52.2%)  python 133/255
+ok   retention.by_pair.2026-W36->2026-W37.gemini: node 193/394 (49.0%)  python 193/394
+ok   retention.by_pair.2026-W36->2026-W37.claude: node 142/253 (56.1%)  python 142/253
+ok   retention.by_pair.2026-W36->2026-W37.aioverviews: node 136/227 (59.9%)  python 136/227
+ok   retention.by_pair.2026-W36->2026-W37.aimode: node 39/74 (52.7%)  python 39/74
+ok   retention.by_pair.2026-W37->2026-W38.perplexity: node 120/201 (59.7%)  python 120/201
+ok   retention.by_pair.2026-W37->2026-W38.openai: node 94/255 (36.9%)  python 94/255
+ok   retention.by_pair.2026-W37->2026-W38.gemini: node 166/404 (41.1%)  python 166/404
+ok   retention.by_pair.2026-W37->2026-W38.claude: node 49/90 (54.4%)  python 49/90
+ok   retention.by_pair.2026-W37->2026-W38.aioverviews: node 118/223 (52.9%)  python 118/223
+ok   retention.by_pair.2026-W37->2026-W38.aimode: node 33/89 (37.1%)  python 33/89
+ok   retention.by_pair.2026-W38->2026-W39.perplexity: node 125/210 (59.5%)  python 125/210
+ok   retention.by_pair.2026-W38->2026-W39.openai: node 141/266 (53.0%)  python 141/266
+ok   retention.by_pair.2026-W38->2026-W39.gemini: node 167/346 (48.3%)  python 167/346
+ok   retention.by_pair.2026-W38->2026-W39.claude: node 57/76 (75.0%)  python 57/76
+ok   retention.by_pair.2026-W38->2026-W39.aioverviews: node 123/226 (54.4%)  python 123/226
+ok   retention.by_pair.2026-W38->2026-W39.aimode: node 32/96 (33.3%)  python 32/96
+ok   retention.by_pair.2026-W39->2026-W40.perplexity: node 69/208 (33.2%)  python 69/208
+ok   retention.by_pair.2026-W39->2026-W40.openai: node 124/262 (47.3%)  python 124/262
+ok   retention.by_pair.2026-W39->2026-W40.gemini: node 204/435 (46.9%)  python 204/435
+ok   retention.by_pair.2026-W39->2026-W40.claude: node 191/313 (61.0%)  python 191/313
+ok   retention.by_pair.2026-W39->2026-W40.aioverviews: node 68/256 (26.6%)  python 68/256
+ok   retention.by_pair.2026-W39->2026-W40.aimode: node 47/101 (46.5%)  python 47/101
+ok   retention.by_pair.2026-W40->2026-W41.perplexity: node 84/168 (50.0%)  python 84/168
+ok   retention.by_pair.2026-W40->2026-W41.openai: node 119/262 (45.4%)  python 119/262
+ok   retention.by_pair.2026-W40->2026-W41.gemini: node 207/450 (46.0%)  python 207/450
+ok   retention.by_pair.2026-W40->2026-W41.claude: node 124/301 (41.2%)  python 124/301
+ok   retention.by_pair.2026-W40->2026-W41.aioverviews: node 57/191 (29.8%)  python 57/191
+ok   retention.by_pair.2026-W40->2026-W41.aimode: node 34/102 (33.3%)  python 34/102
+ok   retention.pooled_same_instrument.all: node 2052/4110 (49.9%)  python 2052/4110
+ok   retention.pooled_nonempty_both.all: node 3335/6431 (51.9%)  python 3335/6431
+ok   retention.pooled_nonempty_both.aimode: node 185/377 (49.1%)  python 185/377
+ok   urls.pooled.all: node 3201/7739 (41.4%)  python 3201/7739
+ok   lag.1.all: node 3335/6947 (48.0%)  python 3335/6947
+ok   lag.2.all: node 2322/5465 (42.5%)  python 2322/5465
+ok   lag.3.all: node 1726/4045 (42.7%)  python 1726/4045
+ok   lag.4.all: node 1060/2825 (37.5%)  python 1060/2825
+ok   lag.5.all: node 530/1416 (37.4%)  python 530/1416
+ok   survival_w36_cohort.1.continuous: node 782/1416 (55.2%)  python 782/1416
+ok   survival_w36_cohort.1.present_that_week: node 782/1416 (55.2%)  python 782/1416
+ok   survival_w36_cohort.2.continuous: node 410/1259 (32.6%)  python 410/1259
+ok   survival_w36_cohort.2.present_that_week: node 563/1259 (44.7%)  python 563/1259
+ok   survival_w36_cohort.3.continuous: node 311/1259 (24.7%)  python 311/1259
+ok   survival_w36_cohort.3.present_that_week: node 611/1259 (48.5%)  python 611/1259
+ok   survival_w36_cohort.4.continuous: node 197/1259 (15.6%)  python 197/1259
+ok   survival_w36_cohort.4.present_that_week: node 448/1259 (35.6%)  python 448/1259
+ok   survival_w36_cohort.5.continuous: node 139/1259 (11.0%)  python 139/1259
+ok   survival_w36_cohort.5.present_that_week: node 458/1259 (36.4%)  python 458/1259
+ok   survival_new_pooled.1: node 533/1950 (27.3%)  python 533/1950
+ok   survival_new_pooled.2: node 193/1497 (12.9%)  python 193/1497
+ok   survival_new_pooled.3: node 69/1058 (6.5%)  python 69/1058
+ok   survival_new_pooled.4: node 26/568 (4.6%)  python 26/568
+ok   conditional_new.1_runs_in_a_row: node 533/1950 (27.3%)  python 533/1950
+ok   conditional_new.2_runs_in_a_row: node 193/434 (44.5%)  python 193/434
+ok   conditional_new.3_runs_in_a_row: node 69/146 (47.3%)  python 69/146
+ok   conditional_new.4_runs_in_a_row: node 26/39 (66.7%)  python 26/39
+ok   returns.pooled_any_later_week: node 1092/2761 (39.6%)  python 1092/2761
+ok   returns.pooled_back_the_very_next_week: node 682/2697 (25.3%)  python 682/2697
+ok   one_week_wonders.all.one_week: node 1781/3592 (49.6%)  python 1781/3592
+ok   one_week_wonders.all.all_six: node 139/3592 (3.9%)  python 139/3592
+ok   one_week_wonders.all.slots_from_one_week: node 1781/7644 (23.3%)  python 1781/7644
+ok   retention_top20_w36_later_pairs: node 604/1007 (60.0%)  python 604/1007
+ok   retention_other_w36_later_pairs: node 1949/4524 (43.1%)  python 1949/4524
+ok   urls.kept_domain_same_url: node 3032/3335 (90.9%)  python 3032/3335
+ok   reddit_crosscheck.reproduced_db_rules.all: node 631/1429 (44.2%)  python 631/1429
+ok   reddit_crosscheck.reproduced_db_rules.perplexity: node 84/174 (48.3%)  python 84/174
+ok   reddit_crosscheck.reproduced_db_rules.openai: node 119/256 (46.5%)  python 119/256
+ok   reddit_crosscheck.reproduced_db_rules.gemini: node 207/391 (52.9%)  python 207/391
+ok   reddit_crosscheck.reproduced_db_rules.claude: node 124/306 (40.5%)  python 124/306
+ok   reddit_crosscheck.reproduced_db_rules.aioverviews: node 60/187 (32.1%)  python 60/187
+ok   reddit_crosscheck.reproduced_db_rules.aimode: node 37/115 (32.2%)  python 37/115
+ok   reddit_crosscheck.this_study_backward: node 625/1510 (41.4%)  python 625/1510
+ok   top10_overlap.2026-W36->2026-W37: node 9  python 9
+ok   top10_overlap.2026-W37->2026-W38: node 9  python 9
+ok   top10_overlap.2026-W38->2026-W39: node 9  python 9
+ok   top10_overlap.2026-W39->2026-W40: node 7  python 7
+ok   top10_overlap.2026-W40->2026-W41: node 7  python 7
+ok   ok_rows_without_domains.2026-W36.aimode: node 12  python 12
+ok   ok_rows_without_domains.2026-W37.aimode: node 10  python 10
+ok   ok_rows_without_domains.2026-W38.aimode: node 12  python 12
+ok   ok_rows_without_domains.2026-W39.aimode: node 14  python 14
+ok   ok_rows_without_domains.2026-W40.aimode: node 16  python 16
+ok   ok_rows_without_domains.2026-W41.aimode: node 13  python 13
+
+All 98 values match (counts with their Wilson intervals, plus 11 plain values).

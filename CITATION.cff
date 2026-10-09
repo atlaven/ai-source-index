@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "Promvia AI Source Index"
+type: dataset
+authors:
+  - name: "Promvia (Atlaven)"
+    website: "https://promvia.app"
+  - family-names: "Sayar"
+    given-names: "Anil"
+url: "https://promvia.app/ai-source-index"
+repository-code: "https://github.com/sayaranil/ai-source-index"
+license: CC-BY-4.0
+date-released: "2026-10-09"
+keywords:
+  - generative engine optimization
+  - AI search
+  - citations
+  - ChatGPT
+  - Google AI Overviews
