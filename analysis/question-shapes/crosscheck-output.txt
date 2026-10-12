@@ -9,7 +9,7 @@ ok   alternatives youtube.com answers citing (from URLs): crosscheck 71, shapes.
 ok   alternatives reddit.com answers citing (from URLs): crosscheck 71, shapes.py 71
 ok   alternatives consumerreports.org answers citing (from URLs): crosscheck 0, shapes.py 0
 ok   alternatives comparison-shaped URLs: crosscheck 1091/2076, shapes.py 1091/2076
-ok   alternatives weekly #1: crosscheck youtube.com,youtube.com,reddit.com,reddit.com,reddit.com,reddit.com, shapes.py youtube.com,youtube.com,reddit.com,reddit.com,reddit.com,reddit.com
+ok   alternatives weekly #1: crosscheck youtube.com,youtube.com,reddit.com,reddit.com,reddit.com+youtube.com,reddit.com, shapes.py youtube.com,youtube.com,reddit.com,reddit.com,reddit.com+youtube.com,reddit.com
 ok   compare answers: crosscheck 282, shapes.py 282
 ok   compare youtube.com answers citing (from URLs): crosscheck 137, shapes.py 137
 ok   compare reddit.com answers citing (from URLs): crosscheck 73, shapes.py 73

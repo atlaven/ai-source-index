@@ -110,8 +110,9 @@ def main():
         top = sorted(domains, key=lambda d: (-dom_pooled[(s, d)], d))[:12]
         weekly_top1 = []
         for w in WEEKS:
-            best = max(domains, key=lambda d: (cite[(w, s, d)], -domains.index(d)))
-            weekly_top1.append({"week": w, "domain": best, "k": cite[(w, s, best)], "n": answers[(w, s)]})
+            k_max = max(cite[(w, s, d)] for d in domains)
+            leaders = [d for d in domains if cite[(w, s, d)] == k_max]  # a tie is reported as a tie
+            weekly_top1.append({"week": w, "domain": "+".join(leaders), "k": k_max, "n": answers[(w, s)]})
         out["shapes"][s] = {
             "answers_pooled": pooled[s],
             "answers_per_week": {w: answers[(w, s)] for w in WEEKS},

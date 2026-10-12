@@ -17,7 +17,7 @@ Two AI Overviews answers on 14 September cited `m.youtube.com`, which the index 
 
 ## 2. Reddit and YouTube are level on "best" and "alternatives", and the leader changed
 
-On best and alternatives questions the two are within a point of each other pooled. The most cited domain was YouTube in the first two runs (3 and 7 September) and Reddit in the last four, on both shapes.
+On best and alternatives questions the two are within a point of each other pooled. YouTube was the most cited domain on both shapes in the first two runs (3 and 7 September). From 14 September Reddit led "best" in all four runs and "alternatives" in three, tying YouTube 12–12 on 28 September.
 
 Correction to what we said in public on 23 September: from the 21 September run alone (W39) we described Reddit as strong on "best" and weak on "alternatives" (15/16 best questions against 6/8 alternatives). Over six runs that does not hold: Reddit was cited for 8 of 8 alternatives questions on 3 and 7 September. Reddit's weakest shape in every run is how-to-buy (4 to 6 of 8 questions), tied with another shape in two runs.
 

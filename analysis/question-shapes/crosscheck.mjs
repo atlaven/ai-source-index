@@ -56,7 +56,8 @@ for (const shape of ["best", "alternatives", "compare", "howto-buy"]) {
   const top1 = res.weeks.map((w) => {
     const c = new Map();
     for (const r of doms) if (r.week === w && r.shape === shape && r.domain) c.set(r.domain, (c.get(r.domain) ?? 0) + 1);
-    return [...c].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+    const max = Math.max(...c.values());
+    return [...c].filter(([, n]) => n === max).map(([d]) => d).sort().join("+");
   });
   check(`${shape} weekly #1`, top1.join(","), s.weekly_top1.map((x) => x.domain).join(","));
 }
