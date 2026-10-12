@@ -15,6 +15,7 @@ Live index: https://promvia.app/ai-source-index
 | `data/cited_urls.csv` | One row per engine answer and cited URL. |
 | `scripts/fetch.py` | Rebuilds everything in `data/` from the API. Standard library only. |
 | `analysis/persistence/` | How long a citation lasts, week over week (W36 to W41 2026): a Python analysis, an independent Node cross-check, and their outputs. |
+| `analysis/question-shapes/` | Which sources each kind of buyer question cites (best, alternatives, compare, how to choose), W36 to W41 2026: `shapes.py`, an independent Node cross-check, `results.json`, a per-shape domain table and `summary.md`. |
 
 Columns in both CSVs: `week, captured_at, instrument, query_id, question, shape, engine, role, status, failure_class`, then `domain` or `url`.
 
@@ -39,6 +40,12 @@ From `analysis/persistence/` (six weekly runs, 3 September to 5 October 2026):
 - 48.0% of the domains an engine cited for a question were cited again for the same question the next week (3,335 of 6,947; 95% interval 46.8 to 49.2%).
 - A first-time citation came back the next week 27.3% of the time; after two weeks in a row, 44.5%.
 - youtube.com and reddit.com were the two most cited domains in all six runs.
+
+From `analysis/question-shapes/`:
+
+- YouTube was the most cited domain on head-to-head "X vs Y" questions in all six runs, in 48.6% of those answers (137 of 282), against 20 to 25% on the other shapes.
+- Comparison-shaped URLs (vs, alternatives, compare) were 69.3% of the pages cited for compare questions and 2.9% for "best" questions.
+- consumerreports.org was cited only for "how do I choose" questions, in every run, and never for any other shape.
 
 Full write-up: https://promvia.app/blog/how-long-ai-citations-last
 
