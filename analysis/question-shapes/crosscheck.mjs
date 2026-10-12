@@ -20,9 +20,11 @@ const parse = (path) => {
     return Object.fromEntries(cols.map((c, i) => [c, out[i] ?? ""]));
   });
 };
-const urls = parse(here + "../../data/cited_urls.csv").filter((r) => r.role === "answer" && r.status === "ok");
-const doms = parse(here + "../../data/citations.csv").filter((r) => r.role === "answer" && r.status === "ok");
 const res = JSON.parse(readFileSync(here + "results.json", "utf8"));
+// The CSVs grow every week; this study is pinned to the weeks results.json was computed on.
+const inStudy = (r) => res.weeks.includes(r.week);
+const urls = parse(here + "../../data/cited_urls.csv").filter((r) => inStudy(r) && r.role === "answer" && r.status === "ok");
+const doms = parse(here + "../../data/citations.csv").filter((r) => inStudy(r) && r.role === "answer" && r.status === "ok");
 
 const key = (r) => `${r.week}|${r.query_id}|${r.engine}`;
 const answers = new Map(); // shape -> Set(answer key)
