@@ -1,0 +1,57 @@
+# Pulls new weeks from the live index and commits them, so this repository never lags the site.
+# New weeks are published on Mondays (~13:00 UTC); Tuesday is a retry in case Monday's run lands
+# before the week is out. A run with nothing new changes no file and makes no commit.
+name: Weekly fetch
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+    - cron: "0 16 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch every published week and rebuild the CSVs
+        run: python3 scripts/fetch.py
+
+      # The analyses are pinned to their study weeks; a new week must not move a published number.
+      - name: Published analyses still reproduce
+        run: |
+          cd analysis/question-shapes
+          node crosscheck.mjs | tee ../../crosscheck.log
+          test "$(tail -n 1 ../../crosscheck.log)" = "ALL MATCH"
+
+      - name: Commit new rows
+        run: |
+          rm -f crosscheck.log
+          if [ -z "$(git status --porcelain data)" ]; then
+            echo "No new rows."
+            exit 0
+          fi
+          new=$(git status --porcelain data/raw | awk '$1=="??"{print $2}' | sed 's#data/raw/##; s#\.json$##' | paste -sd, - | sed 's/,/, /g')
+          if [ -n "$new" ]; then msg="Add week $new (fetched from the live index)"; else msg="Refresh rows from the live index"; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "$msg"
+          git push

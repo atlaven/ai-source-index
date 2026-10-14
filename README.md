@@ -55,7 +55,7 @@ Full write-up: https://promvia.app/blog/how-long-ai-citations-last
 python3 scripts/fetch.py
 ```
 
-New weeks are published on the live index on Mondays. Re-running the fetch adds them and rebuilds the CSVs.
+New weeks are published on the live index on Mondays. Re-running the fetch adds them and rebuilds the CSVs. A scheduled GitHub Action (`.github/workflows/weekly-fetch.yml`) does the same every Monday and Tuesday at 16:00 UTC and commits any new week, after checking that the published analyses still reproduce; the commit history is the update log.
 
 ## Licence and citation
 
