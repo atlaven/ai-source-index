@@ -5,12 +5,11 @@ type: dataset
 authors:
   - name: "Promvia (Atlaven)"
     website: "https://promvia.app"
-  - family-names: "Sayar"
-    given-names: "Anil"
 url: "https://promvia.app/ai-source-index"
 repository-code: "https://github.com/sayaranil/ai-source-index"
 license: CC-BY-4.0
-date-released: "2026-10-09"
+version: "1.0.0"
+date-released: "2026-10-25"
 keywords:
   - generative engine optimization
   - AI search

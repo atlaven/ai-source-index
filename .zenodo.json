@@ -1,0 +1,38 @@
+{
+  "title": "AI Source Index: what six AI answer engines cited, first eight weeks (2026-W36 to W43)",
+  "upload_type": "dataset",
+  "description": "<p>Every week from 3 September to 19 October 2026 (UTC), the same 40 buyer questions were put to six AI answer engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and Google AI Mode) and every source each answer cited was recorded: 1,920 checks, 1,883 answered.</p><p>The release contains the raw weekly rows (data/), flat CSVs, the analysis scripts, and the first-eight-weeks study package (studies/first-eight-weeks/: rows.csv with 11,667 rows, results.json with every published number, and recount.py, a Python standard-library script that rebuilds results.json from rows.csv and prints ALL MATCH).</p><p>Limits: the engines are read through their APIs and Google's result pages, not the consumer apps; one sample per engine, question and week. Report: https://promvia.app/ai-source-index/first-eight-weeks</p>",
+  "creators": [
+    {
+      "name": "Promvia (Atlaven)",
+      "affiliation": "Atlaven, Netherlands (KvK 42199783)"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "generative engine optimization",
+    "AI search",
+    "citations",
+    "ChatGPT",
+    "Perplexity",
+    "Gemini",
+    "Claude",
+    "Google AI Overviews",
+    "Google AI Mode",
+    "LLM evaluation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://promvia.app/ai-source-index/first-eight-weeks",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://promvia.app/ai-source-index",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "language": "eng",
+  "version": "1.0.0"
+}

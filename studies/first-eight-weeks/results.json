@@ -1,0 +1,974 @@
+{
+ "window": {
+  "weeks": [
+   "2026-W36",
+   "2026-W37",
+   "2026-W38",
+   "2026-W39",
+   "2026-W40",
+   "2026-W41",
+   "2026-W42",
+   "2026-W43"
+  ],
+  "capturedAt": [
+   {
+    "week": "2026-W36",
+    "at": "2026-09-03T15:50:41.555Z"
+   },
+   {
+    "week": "2026-W37",
+    "at": "2026-09-07T13:00:18.118Z"
+   },
+   {
+    "week": "2026-W38",
+    "at": "2026-09-14T13:00:14.642Z"
+   },
+   {
+    "week": "2026-W39",
+    "at": "2026-09-21T13:00:17.096Z"
+   },
+   {
+    "week": "2026-W40",
+    "at": "2026-09-28T13:00:20.059Z"
+   },
+   {
+    "week": "2026-W41",
+    "at": "2026-10-05T13:00:13.254Z"
+   },
+   {
+    "week": "2026-W42",
+    "at": "2026-10-12T13:00:12.760Z"
+   },
+   {
+    "week": "2026-W43",
+    "at": "2026-10-19T13:00:14.288Z"
+   }
+  ],
+  "first": "2026-09-03T15:50:41.555Z",
+  "last": "2026-10-19T13:00:14.288Z",
+  "fetchedOn": "2026-10-23"
+ },
+ "instruments": [
+  {
+   "week": "2026-W36",
+   "instrument": "v1-40-5069136b"
+  },
+  {
+   "week": "2026-W37",
+   "instrument": "v1-40-5069136b"
+  },
+  {
+   "week": "2026-W38",
+   "instrument": "v1-40-19f59073"
+  },
+  {
+   "week": "2026-W39",
+   "instrument": "v1-40-19f59073"
+  },
+  {
+   "week": "2026-W40",
+   "instrument": "v1-40-6c41eb63"
+  },
+  {
+   "week": "2026-W41",
+   "instrument": "v1-40-6c41eb63"
+  },
+  {
+   "week": "2026-W42",
+   "instrument": "v1-40-6c41eb63"
+  },
+  {
+   "week": "2026-W43",
+   "instrument": "v1-40-6c41eb63"
+  }
+ ],
+ "panel": {
+  "questions": 40,
+  "byShape": {
+   "best": 16,
+   "alternatives": 8,
+   "compare": 8,
+   "howto-buy": 8
+  },
+  "engines": 6
+ },
+ "coverage": {
+  "cells": 1920,
+  "ok": 1883,
+  "failed": 37,
+  "byEngine": {
+   "perplexity": {
+    "ok": 316,
+    "failed": 4
+   },
+   "openai": {
+    "ok": 320,
+    "failed": 0
+   },
+   "gemini": {
+    "ok": 320,
+    "failed": 0
+   },
+   "claude": {
+    "ok": 291,
+    "failed": 29
+   },
+   "aioverviews": {
+    "ok": 316,
+    "failed": 4
+   },
+   "aimode": {
+    "ok": 320,
+    "failed": 0
+   }
+  },
+  "failures": [
+   {
+    "week": "2026-W38",
+    "engine": "claude",
+    "failureClass": "other",
+    "n": 29
+   },
+   {
+    "week": "2026-W41",
+    "engine": "aioverviews",
+    "failureClass": "provider-error",
+    "n": 1
+   },
+   {
+    "week": "2026-W42",
+    "engine": "aioverviews",
+    "failureClass": "no-answer-parsed",
+    "n": 2
+   },
+   {
+    "week": "2026-W42",
+    "engine": "aioverviews",
+    "failureClass": "provider-error",
+    "n": 1
+   },
+   {
+    "week": "2026-W43",
+    "engine": "perplexity",
+    "failureClass": "rate-limited",
+    "n": 4
+   }
+  ]
+ },
+ "models": {
+  "perplexity": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37",
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ],
+  "openai": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37"
+    ]
+   },
+   {
+    "model": "gpt-4o-mini",
+    "weeks": [
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ],
+  "gemini": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37"
+    ]
+   },
+   {
+    "model": "gemini-3.1-flash-lite",
+    "weeks": [
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ],
+  "claude": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37"
+    ]
+   },
+   {
+    "model": "claude-haiku-4-5-20251001",
+    "weeks": [
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ],
+  "aioverviews": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37",
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ],
+  "aimode": [
+   {
+    "model": null,
+    "weeks": [
+     "2026-W36",
+     "2026-W37",
+     "2026-W38",
+     "2026-W39",
+     "2026-W40",
+     "2026-W41",
+     "2026-W42",
+     "2026-W43"
+    ]
+   }
+  ]
+ },
+ "totals": {
+  "domainCitations": 11390,
+  "distinctDomains": 2669,
+  "csvLines": 11667
+ },
+ "bootstrap": {
+  "draws": 2000,
+  "seed": 20261023
+ },
+ "overlap": {
+  "fullCells": 283,
+  "cellsOf": 320,
+  "domainCells": 7936,
+  "byEngineCount": [
+   6264,
+   1136,
+   379,
+   123,
+   27,
+   7
+  ],
+  "onlyOne": {
+   "k": 6264,
+   "n": 7936,
+   "pct": 78.9,
+   "low": 77.2,
+   "high": 80.6
+  },
+  "pairs": [
+   {
+    "a": "aioverviews",
+    "b": "aimode",
+    "k": 215,
+    "n": 1878,
+    "pct": 11.4,
+    "low": 8.8,
+    "high": 14
+   },
+   {
+    "a": "gemini",
+    "b": "aioverviews",
+    "k": 431,
+    "n": 4016,
+    "pct": 10.7,
+    "low": 9.2,
+    "high": 12.3
+   },
+   {
+    "a": "perplexity",
+    "b": "claude",
+    "k": 321,
+    "n": 3069,
+    "pct": 10.5,
+    "low": 9,
+    "high": 12
+   },
+   {
+    "a": "gemini",
+    "b": "claude",
+    "k": 422,
+    "n": 4674,
+    "pct": 9,
+    "low": 7.3,
+    "high": 10.8
+   },
+   {
+    "a": "perplexity",
+    "b": "gemini",
+    "k": 319,
+    "n": 4025,
+    "pct": 7.9,
+    "low": 6.4,
+    "high": 9.5
+   },
+   {
+    "a": "perplexity",
+    "b": "aioverviews",
+    "k": 201,
+    "n": 2540,
+    "pct": 7.9,
+    "low": 6.2,
+    "high": 9.6
+   },
+   {
+    "a": "gemini",
+    "b": "aimode",
+    "k": 271,
+    "n": 3425,
+    "pct": 7.9,
+    "low": 6,
+    "high": 10
+   },
+   {
+    "a": "claude",
+    "b": "aioverviews",
+    "k": 243,
+    "n": 3250,
+    "pct": 7.5,
+    "low": 6.1,
+    "high": 9
+   },
+   {
+    "a": "perplexity",
+    "b": "aimode",
+    "k": 121,
+    "n": 1869,
+    "pct": 6.5,
+    "low": 4.6,
+    "high": 8.2
+   },
+   {
+    "a": "claude",
+    "b": "aimode",
+    "k": 160,
+    "n": 2582,
+    "pct": 6.2,
+    "low": 4.4,
+    "high": 7.9
+   },
+   {
+    "a": "perplexity",
+    "b": "openai",
+    "k": 141,
+    "n": 3012,
+    "pct": 4.7,
+    "low": 3.4,
+    "high": 6.2
+   },
+   {
+    "a": "openai",
+    "b": "gemini",
+    "k": 191,
+    "n": 4668,
+    "pct": 4.1,
+    "low": 3.1,
+    "high": 5.2
+   },
+   {
+    "a": "openai",
+    "b": "claude",
+    "k": 146,
+    "n": 3759,
+    "pct": 3.9,
+    "low": 2.8,
+    "high": 5
+   },
+   {
+    "a": "openai",
+    "b": "aimode",
+    "k": 92,
+    "n": 2413,
+    "pct": 3.8,
+    "low": 2.3,
+    "high": 5.7
+   },
+   {
+    "a": "openai",
+    "b": "aioverviews",
+    "k": 112,
+    "n": 3144,
+    "pct": 3.6,
+    "low": 2.3,
+    "high": 5
+   }
+  ],
+  "sameEngineNextWeek": {
+   "k": 4622,
+   "n": 15001,
+   "pct": 30.8,
+   "low": 29.6,
+   "high": 32
+  }
+ },
+ "platforms": [
+  {
+   "id": "reddit",
+   "byEngine": {
+    "perplexity": {
+     "k": 15,
+     "n": 316,
+     "pct": 4.7,
+     "low": 1.3,
+     "high": 8.9
+    },
+    "openai": {
+     "k": 0,
+     "n": 320,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "gemini": {
+     "k": 193,
+     "n": 320,
+     "pct": 60.3,
+     "low": 51.6,
+     "high": 69.4
+    },
+    "claude": {
+     "k": 0,
+     "n": 291,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "aioverviews": {
+     "k": 118,
+     "n": 316,
+     "pct": 37.3,
+     "low": 30.4,
+     "high": 44.9
+    },
+    "aimode": {
+     "k": 60,
+     "n": 320,
+     "pct": 18.8,
+     "low": 11.9,
+     "high": 26.3
+    }
+   },
+   "all": {
+    "k": 386,
+    "n": 1883,
+    "pct": 20.5,
+    "low": 17.7,
+    "high": 23.4
+   }
+  },
+  {
+   "id": "youtube",
+   "byEngine": {
+    "perplexity": {
+     "k": 0,
+     "n": 316,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "openai": {
+     "k": 76,
+     "n": 320,
+     "pct": 23.8,
+     "low": 12.8,
+     "high": 35.9
+    },
+    "gemini": {
+     "k": 163,
+     "n": 320,
+     "pct": 50.9,
+     "low": 40,
+     "high": 61.3
+    },
+    "claude": {
+     "k": 2,
+     "n": 291,
+     "pct": 0.7,
+     "low": 0,
+     "high": 1.7
+    },
+    "aioverviews": {
+     "k": 165,
+     "n": 316,
+     "pct": 52.2,
+     "low": 43,
+     "high": 61.4
+    },
+    "aimode": {
+     "k": 95,
+     "n": 320,
+     "pct": 29.7,
+     "low": 22.2,
+     "high": 38.4
+    }
+   },
+   "all": {
+    "k": 501,
+    "n": 1883,
+    "pct": 26.6,
+    "low": 22.2,
+    "high": 31.2
+   }
+  },
+  {
+   "id": "wikipedia",
+   "byEngine": {
+    "perplexity": {
+     "k": 0,
+     "n": 316,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "openai": {
+     "k": 7,
+     "n": 320,
+     "pct": 2.2,
+     "low": 0,
+     "high": 6.6
+    },
+    "gemini": {
+     "k": 0,
+     "n": 320,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "claude": {
+     "k": 12,
+     "n": 291,
+     "pct": 4.1,
+     "low": 1.7,
+     "high": 7.2
+    },
+    "aioverviews": {
+     "k": 0,
+     "n": 316,
+     "pct": 0,
+     "low": null,
+     "high": null
+    },
+    "aimode": {
+     "k": 0,
+     "n": 320,
+     "pct": 0,
+     "low": null,
+     "high": null
+    }
+   },
+   "all": {
+    "k": 19,
+    "n": 1883,
+    "pct": 1,
+    "low": 0.3,
+    "high": 2
+   }
+  }
+ ],
+ "concentration": {
+  "top": [
+   {
+    "domain": "youtube.com",
+    "citations": 499
+   },
+   {
+    "domain": "reddit.com",
+    "citations": 386
+   },
+   {
+    "domain": "forbes.com",
+    "citations": 145
+   },
+   {
+    "domain": "techradar.com",
+    "citations": 125
+   },
+   {
+    "domain": "nerdwallet.com",
+    "citations": 89
+   },
+   {
+    "domain": "zapier.com",
+    "citations": 84
+   },
+   {
+    "domain": "tomsguide.com",
+    "citations": 78
+   },
+   {
+    "domain": "cnbc.com",
+    "citations": 72
+   },
+   {
+    "domain": "rtings.com",
+    "citations": 67
+   },
+   {
+    "domain": "northflank.com",
+    "citations": 66
+   }
+  ],
+  "top1": {
+   "k": 499,
+   "n": 11390,
+   "pct": 4.4
+  },
+  "top2": {
+   "k": 885,
+   "n": 11390,
+   "pct": 7.8
+  },
+  "top10": {
+   "k": 1611,
+   "n": 11390,
+   "pct": 14.1
+  },
+  "halfAt": 259,
+  "citedOnce": {
+   "k": 1181,
+   "n": 2669,
+   "pct": 44.2
+  }
+ },
+ "stability": {
+  "pairs": [
+   {
+    "from": "2026-W36",
+    "to": "2026-W37",
+    "sameInstrument": true,
+    "k": 782,
+    "n": 1416,
+    "pct": 55.2
+   },
+   {
+    "from": "2026-W37",
+    "to": "2026-W38",
+    "sameInstrument": false,
+    "k": 580,
+    "n": 1262,
+    "pct": 46
+   },
+   {
+    "from": "2026-W38",
+    "to": "2026-W39",
+    "sameInstrument": true,
+    "k": 645,
+    "n": 1220,
+    "pct": 52.9
+   },
+   {
+    "from": "2026-W39",
+    "to": "2026-W40",
+    "sameInstrument": false,
+    "k": 703,
+    "n": 1575,
+    "pct": 44.6
+   },
+   {
+    "from": "2026-W40",
+    "to": "2026-W41",
+    "sameInstrument": true,
+    "k": 625,
+    "n": 1474,
+    "pct": 42.4
+   },
+   {
+    "from": "2026-W41",
+    "to": "2026-W42",
+    "sameInstrument": true,
+    "k": 659,
+    "n": 1501,
+    "pct": 43.9
+   },
+   {
+    "from": "2026-W42",
+    "to": "2026-W43",
+    "sameInstrument": true,
+    "k": 628,
+    "n": 1420,
+    "pct": 44.2
+   }
+  ],
+  "pooled": {
+   "k": 4622,
+   "n": 9868,
+   "pct": 46.8,
+   "low": 45.5,
+   "high": 48.2
+  },
+  "sameInstrument": {
+   "k": 3339,
+   "n": 7031,
+   "pct": 47.5,
+   "low": 46,
+   "high": 49
+  },
+  "byEngine": {
+   "perplexity": {
+    "k": 669,
+    "n": 1324,
+    "pct": 50.5,
+    "low": 47.3,
+    "high": 53.6
+   },
+   "openai": {
+    "k": 889,
+    "n": 1815,
+    "pct": 49,
+    "low": 45.4,
+    "high": 52.9
+   },
+   "gemini": {
+    "k": 1338,
+    "n": 2865,
+    "pct": 46.7,
+    "low": 43.5,
+    "high": 50.1
+   },
+   "claude": {
+    "k": 889,
+    "n": 1671,
+    "pct": 53.2,
+    "low": 48,
+    "high": 58.5
+   },
+   "aioverviews": {
+    "k": 584,
+    "n": 1516,
+    "pct": 38.5,
+    "low": 35,
+    "high": 41.6
+   },
+   "aimode": {
+    "k": 253,
+    "n": 677,
+    "pct": 37.4,
+    "low": 30.2,
+    "high": 44.1
+   }
+  },
+  "eightWeeks": {
+   "pairsOk": 203,
+   "pairsOf": 240,
+   "triples": 4112,
+   "hist": [
+    1976,
+    773,
+    466,
+    319,
+    204,
+    175,
+    117,
+    82
+   ],
+   "onlyOne": {
+    "k": 1976,
+    "n": 4112,
+    "pct": 48.1,
+    "low": 46.2,
+    "high": 49.7
+   },
+   "every": {
+    "k": 82,
+    "n": 4112,
+    "pct": 2,
+    "low": 1.5,
+    "high": 2.6
+   }
+  }
+ },
+ "shapes": [
+  {
+   "shape": "best",
+   "questions": 16,
+   "youtube": {
+    "k": 148,
+    "n": 755,
+    "pct": 19.6,
+    "low": 14.3,
+    "high": 25.2
+   },
+   "reddit": {
+    "k": 143,
+    "n": 755,
+    "pct": 18.9,
+    "low": 15.5,
+    "high": 22.2
+   }
+  },
+  {
+   "shape": "alternatives",
+   "questions": 8,
+   "youtube": {
+    "k": 86,
+    "n": 375,
+    "pct": 22.9,
+    "low": 19.4,
+    "high": 26.6
+   },
+   "reddit": {
+    "k": 93,
+    "n": 375,
+    "pct": 24.8,
+    "low": 19,
+    "high": 32.1
+   }
+  },
+  {
+   "shape": "compare",
+   "questions": 8,
+   "youtube": {
+    "k": 179,
+    "n": 376,
+    "pct": 47.6,
+    "low": 42.4,
+    "high": 52.9
+   },
+   "reddit": {
+    "k": 96,
+    "n": 376,
+    "pct": 25.5,
+    "low": 20.6,
+    "high": 31.1
+   }
+  },
+  {
+   "shape": "howto-buy",
+   "questions": 8,
+   "youtube": {
+    "k": 88,
+    "n": 377,
+    "pct": 23.3,
+    "low": 13.8,
+    "high": 32.2
+   },
+   "reddit": {
+    "k": 54,
+    "n": 377,
+    "pct": 14.3,
+    "low": 7.7,
+    "high": 21.7
+   }
+  }
+ ],
+ "breadth": {
+  "perplexity": {
+   "answers": 316,
+   "domains": 1490,
+   "mean": 4.72,
+   "meanLow": 4.37,
+   "meanHigh": 5.06,
+   "zero": {
+    "k": 0,
+    "n": 316,
+    "pct": 0,
+    "low": null,
+    "high": null
+   }
+  },
+  "openai": {
+   "answers": 320,
+   "domains": 2070,
+   "mean": 6.47,
+   "meanLow": 5.85,
+   "meanHigh": 7.08,
+   "zero": {
+    "k": 1,
+    "n": 320,
+    "pct": 0.3,
+    "low": 0,
+    "high": 0.9
+   }
+  },
+  "gemini": {
+   "answers": 320,
+   "domains": 3304,
+   "mean": 10.33,
+   "meanLow": 9.61,
+   "meanHigh": 11.05,
+   "zero": {
+    "k": 38,
+    "n": 320,
+    "pct": 11.9,
+    "low": 8.1,
+    "high": 15.9
+   }
+  },
+  "claude": {
+   "answers": 291,
+   "domains": 2152,
+   "mean": 7.4,
+   "meanLow": 6.43,
+   "meanHigh": 8.41,
+   "zero": {
+    "k": 44,
+    "n": 291,
+    "pct": 15.1,
+    "low": 6.5,
+    "high": 24.1
+   }
+  },
+  "aioverviews": {
+   "answers": 316,
+   "domains": 1616,
+   "mean": 5.11,
+   "meanLow": 4.53,
+   "meanHigh": 5.65,
+   "zero": {
+    "k": 50,
+    "n": 316,
+    "pct": 15.8,
+    "low": 10.8,
+    "high": 21.3
+   }
+  },
+  "aimode": {
+   "answers": 320,
+   "domains": 758,
+   "mean": 2.37,
+   "meanLow": 1.84,
+   "meanHigh": 2.93,
+   "zero": {
+    "k": 107,
+    "n": 320,
+    "pct": 33.4,
+    "low": 23.1,
+    "high": 45
+   }
+  }
+ }
+}
