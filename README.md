@@ -1,5 +1,8 @@
 # AI Source Index
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23651937.svg)](https://doi.org/10.5281/zenodo.23651937)
+
+
 Which websites do AI answer engines cite, and do they keep citing them?
 
 Every week we ask the same 40 buyer questions to six answer engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and Google AI Mode) and record every source each answer cites. This repository holds the raw rows of every published week, flat CSVs built from them, and the scripts behind our analyses, so anyone can check a number instead of trusting it.
@@ -65,3 +68,7 @@ The data is licensed under CC BY 4.0 (see `LICENSE`): use it for anything, with 
 ## Who runs it
 
 The index is collected and published by Promvia (https://promvia.app), an AI visibility tracker made by Atlaven. We sell a product in this space; the index uses a fixed panel unrelated to our customers and is free to read, download and reuse. Questions or corrections: ops@atlaven.com.
+
+## How to cite
+
+Promvia (Atlaven). *AI Source Index: what six AI answer engines cited, first eight weeks (2026-W36 to W43)*, version 1.0.0. Zenodo, 2026. https://doi.org/10.5281/zenodo.23651937

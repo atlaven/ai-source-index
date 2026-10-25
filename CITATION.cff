@@ -9,6 +9,7 @@ url: "https://promvia.app/ai-source-index"
 repository-code: "https://github.com/sayaranil/ai-source-index"
 license: CC-BY-4.0
 version: "1.0.0"
+doi: "10.5281/zenodo.23651937"
 date-released: "2026-10-25"
 keywords:
   - generative engine optimization
