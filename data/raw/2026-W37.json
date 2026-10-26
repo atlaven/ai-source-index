@@ -4,7 +4,7 @@
  "analysisVersion": 2,
  "rules": [
   "a row with status 'failed' is coverage, never a citation: it cites nothing",
-  "a failed row carries `failureClass` from a closed set: timeout, rate-limited, refused-credentials, refused-credit, blocked, wrong-question, no-answer-parsed, provider-error, ungrounded, region-unavailable, other — the class only, never the provider's own message",
+  "a failed row carries `failureClass` from a closed set: timeout, rate-limited, capacity-deferred, refused-credentials, refused-credit, blocked, wrong-question, no-answer-parsed, provider-error, ungrounded, region-unavailable, other — the class only, never the provider's own message",
   "a domain counts once per (question, engine) however many of its URLs that answer cited — `domains` is already deduped",
   "an engine with role 'proxy' (Bing, standing in for Copilot) keeps its own column and never enters the 'all' totals",
   "`domains` is derived from `citedUrls`: grounding redirects and Google search/shopping links resolve to no domain and drop out"

@@ -4,7 +4,7 @@
  "analysisVersion": 2,
  "rules": [
   "a row with status 'failed' is coverage, never a citation: it cites nothing",
-  "a failed row carries `failureClass` from a closed set: timeout, rate-limited, refused-credentials, refused-credit, blocked, wrong-question, no-answer-parsed, provider-error, ungrounded, region-unavailable, other — the class only, never the provider's own message",
+  "a failed row carries `failureClass` from a closed set: timeout, rate-limited, capacity-deferred, refused-credentials, refused-credit, blocked, wrong-question, no-answer-parsed, provider-error, ungrounded, region-unavailable, other — the class only, never the provider's own message",
   "a domain counts once per (question, engine) however many of its URLs that answer cited — `domains` is already deduped",
   "an engine with role 'proxy' (Bing, standing in for Copilot) keeps its own column and never enters the 'all' totals",
   "`domains` is derived from `citedUrls`: grounding redirects and Google search/shopping links resolve to no domain and drop out"
@@ -127,6 +127,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "beyondthepeel.net",
       "bikebesties.com",
@@ -156,6 +157,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -166,6 +168,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "canadiantire.ca",
       "homefitnesslab.com",
@@ -249,6 +252,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "abteem.com",
       "capterra.com",
@@ -280,6 +284,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "appstoreresearch.com",
       "campaignmonitor.com",
@@ -316,6 +321,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "australianonlinenews.com.au",
       "ecomstacksolutions.com",
@@ -395,6 +401,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "comparemutualfunds.com",
       "earninginprogress.com",
@@ -425,6 +432,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "aversusb.net",
       "bogleheads.org",
@@ -462,6 +470,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "fidelity.com",
       "unbiased.com",
@@ -525,6 +534,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "adorama.com",
       "arzopa.com",
@@ -570,6 +580,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "benq.com",
       "devdesksetup.com",
@@ -602,6 +613,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "benq.com",
       "dateks.lv",
@@ -694,6 +706,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "breeze-wellbeing.com",
       "choosingtherapy.com",
@@ -724,6 +737,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -734,6 +748,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "greatist.com",
       "healthline.com",
@@ -799,6 +814,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "expertreviews.co.uk",
       "gulfnews.com",
@@ -827,6 +843,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "cnet.com",
       "homesandgardens.com",
@@ -856,6 +873,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "au.tineco.com",
       "consumerreports.org",
@@ -972,6 +990,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "1vps.com",
       "cadence.withremote.ai",
@@ -1002,6 +1021,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "blog.railway.com",
       "bytebase.com",
@@ -1045,6 +1065,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "averagedatabase.com",
       "businesswire.com",
@@ -1133,6 +1154,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "bambamscoop.com",
       "ringly.io",
@@ -1162,6 +1184,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "basicapparel.com",
       "cosyroots.de",
@@ -1207,6 +1230,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "ecothes.com",
       "fashionandthefree.com",
@@ -1309,6 +1333,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -1319,6 +1344,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "blackroll.com",
       "chambrekids.com",
@@ -1357,6 +1383,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "rtings.com",
       "sleepfoundation.org",
@@ -1435,6 +1462,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -1445,6 +1473,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "forbes.com",
       "invensislearning.com",
@@ -1491,6 +1520,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "agencydashboard.io",
       "agencyhandy.com",
@@ -1553,6 +1583,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "aol.com",
       "athleticannex.com",
@@ -1583,6 +1614,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "bestsportsdrinks.com",
       "copenhagenmarathon.dk",
@@ -1634,6 +1666,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "aidstation.co.nz",
       "bestsportsdrinks.com",
@@ -1728,6 +1761,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -1738,6 +1772,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "belladonnamediamarketing.com",
       "blog.hubspot.com",
@@ -1785,6 +1820,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "crobenchmark.com",
       "gridscheduler.co",
@@ -1875,6 +1911,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "dreametech.com",
       "everydayhomecomfort.com",
@@ -1905,6 +1942,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "dreametech.com",
       "everydayhomecomfort.com",
@@ -1934,6 +1972,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "4casahome.com",
       "eufy.com",
@@ -2044,6 +2083,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "beehiiv.com",
       "designrush.com",
@@ -2074,6 +2114,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "brevo.com",
       "drip.com",
@@ -2121,6 +2162,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "australianonlinenews.com.au",
       "bizequals.com",
@@ -2221,6 +2263,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -2231,6 +2274,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "aokemotion.com",
       "arensonof.com",
@@ -2277,6 +2321,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "consumerreports.org",
       "ergonomic-office.com",
@@ -2363,6 +2408,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "back4app.com",
       "bunnyshell.com",
@@ -2393,6 +2439,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "blog.cloud66.com",
       "clankercloud.ai",
@@ -2434,6 +2481,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "dalgonakit.tistory.com",
       "deployinfra.ai",
@@ -2526,6 +2574,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "dupple.com",
       "emailvendorselection.com",
@@ -2554,6 +2603,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "bestsalesfunnelsoftware.com",
       "convertri.com",
@@ -2589,6 +2639,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "10xsheets.com",
       "blog.hubspot.de",
@@ -2689,6 +2740,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "botable.ai",
       "ciotech.us",
@@ -2733,6 +2785,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -2743,6 +2796,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "slack.com",
       "timeeting.com",
@@ -2812,6 +2866,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "cnbc.com",
       "creditkarma.com",
@@ -2840,6 +2895,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "camelsandchocolate.com",
       "creditcards.com",
@@ -2873,6 +2929,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "creditcardscreener.com",
       "fatecno.com.br",
@@ -2942,6 +2999,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "datastackhub.com",
       "flowith.io",
@@ -2972,6 +3030,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -2982,6 +3041,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "community.atlassian.com",
       "connect.superhuman.com",
@@ -3067,6 +3127,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -3077,6 +3138,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "duravo.com",
       "forbes.com",
@@ -3110,6 +3172,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "abt.com",
       "consumerreports.org",
@@ -3195,6 +3258,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "apps.apple.com",
       "cnbc.com",
@@ -3225,6 +3289,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "bitdegree.org",
       "connectpay.com",
@@ -3268,6 +3333,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "cnbc.com",
       "floow.design",
@@ -3348,6 +3414,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "androidcentral.com",
       "bgr.com",
@@ -3378,6 +3445,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "androidcentral.com",
       "chip.de",
@@ -3421,6 +3489,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "bludiode.com",
       "dustin.be",
@@ -3517,6 +3586,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "airbnb.com",
       "en.wikipedia.org",
@@ -3546,6 +3616,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "answers.housinganywhere.com",
       "callingforthewild.com",
@@ -3592,6 +3663,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "airhostd.com",
       "apartments.com",
@@ -3664,6 +3736,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "adorama.com",
       "discovercameras.com",
@@ -3694,6 +3767,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "comspot.de",
       "engadget.com",
@@ -3735,6 +3809,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "blibli.com",
       "claritypick.com",
@@ -3837,6 +3912,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "besttoolsalternatives.com",
       "focusreactive.com",
@@ -3867,6 +3943,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "dev.to",
       "gautamkhorana.com",
@@ -3895,6 +3972,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "netlify.com",
       "vercel.com",
@@ -3955,6 +4033,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "beetweb.com",
       "bkwebdesigns.com",
@@ -3985,6 +4064,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "forbes.com",
       "getkanal.com",
@@ -4031,6 +4111,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "edesk.com",
       "putler.com",
@@ -4098,6 +4179,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "androidauthority.com",
       "techfitnesslab.com",
@@ -4124,6 +4206,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "fablstyle.com",
       "health.clevelandclinic.org",
@@ -4159,6 +4242,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "bug.hr",
       "droidapp.nl",
@@ -4232,6 +4316,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "fit2run.com",
       "fleetfeet.com",
@@ -4262,6 +4347,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "brooksrunning.com",
       "findmyfootwear.com",
@@ -4296,6 +4382,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "bestwalkingfeet.com",
       "eventyrsport.dk",
@@ -4371,6 +4458,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "budgetsmart.io",
       "expensesumo.com",
@@ -4401,6 +4489,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -4411,6 +4500,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "andro4all.com",
       "bgr.com",
@@ -4508,6 +4598,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "bednight.com",
       "ecommerceparadise.com",
@@ -4537,6 +4628,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "actowizmetrics.com",
       "community.ricksteves.com",
@@ -4573,6 +4665,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "bednight.com",
       "rateranger.io",
@@ -4643,6 +4736,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "agiled.app",
       "billbooks.com",
@@ -4675,6 +4769,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -4685,6 +4780,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "allegro.pl",
       "faktiq.online",
@@ -4770,6 +4866,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "americanvisitorinsurance.com",
       "asialifestylemagazine.com",
@@ -4814,6 +4911,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [],
      "citedUrls": []
     },
@@ -4824,6 +4922,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "allfornomads.com",
       "earthsims.com",
@@ -4918,6 +5017,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "amazon.com",
       "amazonforum.com",
@@ -4979,6 +5079,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "fantasyread.ai",
       "galaxus.ch",
@@ -5013,6 +5114,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "price.review",
       "youtube.com"
@@ -5073,6 +5175,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "budgetsmart.io",
       "clearvaluelending.com",
@@ -5102,6 +5205,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "bankrate.com",
       "cnbc.com",
@@ -5128,6 +5232,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "auctuscapitalinc.com",
       "clearvaluelending.com",
@@ -5213,6 +5318,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "apistatuscheck.com",
       "cubeapm.com",
@@ -5242,6 +5348,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "betterstack.com",
       "blog.risingstack.com",
@@ -5277,6 +5384,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "honeybadger.io",
       "scoutapm.com"
@@ -5374,6 +5482,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "behindrankings.com",
       "brafton.com",
@@ -5404,6 +5513,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "dageno.ai",
       "ecommercetrix.com",
@@ -5444,6 +5554,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "biztechscout.com",
       "keywordtool.net",
@@ -5518,6 +5629,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -5528,6 +5640,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "about.gitlab.com",
       "airbyte.com",
@@ -5567,6 +5680,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "blog.jsy.tw",
       "dev.to",
@@ -5653,6 +5767,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [
       "blog.salesflare.com",
       "dench.com",
@@ -5683,6 +5798,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "attio.com",
       "clarify.ai",
@@ -5727,6 +5843,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "bizappln.com",
       "crm.org",
@@ -5811,6 +5928,7 @@
      "engine": "claude",
      "role": "answer",
      "status": "ok",
+     "model": "claude-haiku-4-5-20251001",
      "domains": [],
      "citedUrls": []
     },
@@ -5821,6 +5939,7 @@
      "engine": "gemini",
      "role": "answer",
      "status": "ok",
+     "model": "gemini-3.1-flash-lite",
      "domains": [
       "advisors.vanguard.com",
       "assets.kpmg.com",
@@ -5863,6 +5982,7 @@
      "engine": "openai",
      "role": "answer",
      "status": "ok",
+     "model": "gpt-4o-mini",
      "domains": [
       "kiplinger.com",
       "nerdwallet.com"
