@@ -6,7 +6,7 @@ authors:
   - name: "Promvia (Atlaven)"
     website: "https://promvia.app"
 url: "https://promvia.app/ai-source-index"
-repository-code: "https://github.com/sayaranil/ai-source-index"
+repository-code: "https://github.com/atlaven/ai-source-index"
 license: CC-BY-4.0
 version: "1.0.0"
 doi: "10.5281/zenodo.23651937"

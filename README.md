@@ -19,6 +19,9 @@ Live index: https://promvia.app/ai-source-index
 | `scripts/fetch.py` | Rebuilds everything in `data/` from the API. Standard library only. |
 | `analysis/persistence/` | How long a citation lasts, week over week (W36 to W41 2026): a Python analysis, an independent Node cross-check, and their outputs. |
 | `analysis/question-shapes/` | Which sources each kind of buyer question cites (best, alternatives, compare, how to choose), W36 to W41 2026: `shapes.py`, an independent Node cross-check, `results.json`, a per-shape domain table and `summary.md`. |
+| `analysis/aio-aimode/` | Google AI Overviews and AI Mode, W36 to W41 2026: answers with no sources, per-question switching and the overlap between the two surfaces. A Python analysis, an independent Node cross-check and their outputs. |
+| `analysis/organic-vs-aio/` | Does Google's organic top 10 predict being cited by AI Overviews and AI Mode for the same question? 40 questions, runs of 28 Sep and 5 Oct 2026, organic top 10 of 6 Oct: `rows.csv`, `serp.csv`, `summary.md`. |
+| `analysis/server-logs-citations/` | promvia.app's own server logs joined to ChatGPT and Perplexity citations, 26 Aug to 5 Oct 2026: what the engines' crawlers did around a citation. `rows.csv`, `recount.py`, `summary.md`. |
 | `studies/first-eight-weeks/` | The first-eight-weeks study (W36 to W43 2026): `rows.csv` (11,667 rows), `results.json` (every published number) and `recount.py`, which rebuilds the numbers and prints `ALL MATCH`. Report: https://promvia.app/ai-source-index/first-eight-weeks |
 
 Columns in both CSVs: `week, captured_at, instrument, query_id, question, shape, engine, role, status, failure_class`, then `domain` or `url`.
