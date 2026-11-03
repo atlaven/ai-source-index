@@ -1,0 +1,73 @@
+{
+ "per_week": {
+  "2026-W36": {
+   "cells": 39,
+   "one_engine_pct": 75.2,
+   "chatgpt_alone_pct": 78.0
+  },
+  "2026-W37": {
+   "cells": 39,
+   "one_engine_pct": 75.6,
+   "chatgpt_alone_pct": 75.3
+  },
+  "2026-W38": {
+   "cells": 36,
+   "one_engine_pct": 79.0,
+   "chatgpt_alone_pct": 80.5
+  },
+  "2026-W39": {
+   "cells": 39,
+   "one_engine_pct": 75.6,
+   "chatgpt_alone_pct": 77.6
+  },
+  "2026-W40": {
+   "cells": 39,
+   "one_engine_pct": 80.0,
+   "chatgpt_alone_pct": 82.5
+  },
+  "2026-W41": {
+   "cells": 39,
+   "one_engine_pct": 80.7,
+   "chatgpt_alone_pct": 78.6
+  },
+  "2026-W42": {
+   "cells": 39,
+   "one_engine_pct": 82.1,
+   "chatgpt_alone_pct": 78.7
+  },
+  "2026-W43": {
+   "cells": 39,
+   "one_engine_pct": 82.8,
+   "chatgpt_alone_pct": 79.1
+  },
+  "2026-W44": {
+   "cells": 38,
+   "one_engine_pct": 80.9,
+   "chatgpt_alone_pct": 72.5
+  },
+  "2026-W45": {
+   "cells": 38,
+   "one_engine_pct": 82.5,
+   "chatgpt_alone_pct": 62.6
+  }
+ },
+ "one_engine": [
+  8452,
+  10634,
+  79.5,
+  [
+   78.7,
+   80.2
+  ]
+ ],
+ "chatgpt_alone": [
+  1847,
+  2404,
+  76.8,
+  [
+   75.1,
+   78.5
+  ]
+ ],
+ "distinct_questions": 40
+}

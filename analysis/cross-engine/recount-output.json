@@ -1,0 +1,314 @@
+{
+  "weeks": [
+    "2026-W36",
+    "2026-W37",
+    "2026-W38",
+    "2026-W39",
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45"
+  ],
+  "engines": [
+    "openai",
+    "perplexity",
+    "gemini",
+    "claude",
+    "aioverviews",
+    "aimode"
+  ],
+  "A": {
+    "cells": 400,
+    "rowsExcludedStatusNotOk": 37,
+    "rowsExcludedStatusNotOkByEngine": {
+      "claude": 29,
+      "aioverviews": 4,
+      "perplexity": 4
+    },
+    "rowsExcludedOkButEmptyDomainsByEngine": {
+      "openai": 5,
+      "perplexity": 0,
+      "gemini": 52,
+      "claude": 55,
+      "aioverviews": 59,
+      "aimode": 124
+    },
+    "rowsExcludedOkButEmptyDomainsTotal": 295,
+    "cellsByPresentEngineCount": {
+      "3": 15,
+      "4": 79,
+      "5": 129,
+      "6": 177
+    }
+  },
+  "B": {
+    "openai|perplexity": {
+      "cells": 391,
+      "sumIntersection": 220,
+      "sumUnion": 4062,
+      "pooledJaccard": 0.054161
+    },
+    "openai|gemini": {
+      "cells": 344,
+      "sumIntersection": 272,
+      "sumUnion": 5949,
+      "pooledJaccard": 0.045722
+    },
+    "openai|claude": {
+      "cells": 311,
+      "sumIntersection": 200,
+      "sumUnion": 4581,
+      "pooledJaccard": 0.043659
+    },
+    "openai|aioverviews": {
+      "cells": 333,
+      "sumIntersection": 151,
+      "sumUnion": 3825,
+      "pooledJaccard": 0.039477
+    },
+    "openai|aimode": {
+      "cells": 273,
+      "sumIntersection": 123,
+      "sumUnion": 2497,
+      "pooledJaccard": 0.049259
+    },
+    "perplexity|gemini": {
+      "cells": 345,
+      "sumIntersection": 415,
+      "sumUnion": 5248,
+      "pooledJaccard": 0.079078
+    },
+    "perplexity|claude": {
+      "cells": 312,
+      "sumIntersection": 393,
+      "sumUnion": 3747,
+      "pooledJaccard": 0.104884
+    },
+    "perplexity|aioverviews": {
+      "cells": 334,
+      "sumIntersection": 257,
+      "sumUnion": 3255,
+      "pooledJaccard": 0.078955
+    },
+    "perplexity|aimode": {
+      "cells": 272,
+      "sumIntersection": 174,
+      "sumUnion": 1938,
+      "pooledJaccard": 0.089783
+    },
+    "gemini|claude": {
+      "cells": 277,
+      "sumIntersection": 527,
+      "sumUnion": 5078,
+      "pooledJaccard": 0.103781
+    },
+    "gemini|aioverviews": {
+      "cells": 291,
+      "sumIntersection": 567,
+      "sumUnion": 4556,
+      "pooledJaccard": 0.124451
+    },
+    "gemini|aimode": {
+      "cells": 235,
+      "sumIntersection": 352,
+      "sumUnion": 3117,
+      "pooledJaccard": 0.112929
+    },
+    "claude|aioverviews": {
+      "cells": 263,
+      "sumIntersection": 277,
+      "sumUnion": 3462,
+      "pooledJaccard": 0.080012
+    },
+    "claude|aimode": {
+      "cells": 245,
+      "sumIntersection": 190,
+      "sumUnion": 2768,
+      "pooledJaccard": 0.068642
+    },
+    "aioverviews|aimode": {
+      "cells": 238,
+      "sumIntersection": 267,
+      "sumUnion": 1794,
+      "pooledJaccard": 0.148829
+    }
+  },
+  "C": {
+    "cells": 385,
+    "distinctDomainCellPairs": 10634,
+    "histogram": {
+      "1": 8452,
+      "2": 1497,
+      "3": 492,
+      "4": 149,
+      "5": 34,
+      "6": 10
+    },
+    "shareExactlyOne": 0.794809
+  },
+  "D": {
+    "cells": 177,
+    "distinctDomainCellPairs": 5202,
+    "histogram": {
+      "1": 4005,
+      "2": 764,
+      "3": 293,
+      "4": 101,
+      "5": 29,
+      "6": 10
+    },
+    "shareExactlyOne": 0.769896
+  },
+  "E": {
+    "openai": {
+      "cells": 381,
+      "totalDomains": 2404,
+      "citedByNoOtherEngine": 1847,
+      "shareUnique": 0.768303
+    },
+    "perplexity": {
+      "cells": 381,
+      "totalDomains": 1764,
+      "citedByNoOtherEngine": 914,
+      "shareUnique": 0.518141
+    },
+    "gemini": {
+      "cells": 342,
+      "totalDomains": 4017,
+      "citedByNoOtherEngine": 2648,
+      "shareUnique": 0.659198
+    },
+    "claude": {
+      "cells": 314,
+      "totalDomains": 2776,
+      "citedByNoOtherEngine": 1765,
+      "shareUnique": 0.635807
+    },
+    "aioverviews": {
+      "cells": 331,
+      "totalDomains": 1905,
+      "citedByNoOtherEngine": 985,
+      "shareUnique": 0.51706
+    },
+    "aimode": {
+      "cells": 274,
+      "totalDomains": 882,
+      "citedByNoOtherEngine": 293,
+      "shareUnique": 0.3322
+    }
+  },
+  "F": {
+    "openai": {
+      "pairs": 353,
+      "sumIntersection": 957,
+      "sumUnion": 3508,
+      "pooledJaccard": 0.272805
+    },
+    "perplexity": {
+      "pairs": 352,
+      "sumIntersection": 838,
+      "sumUnion": 2411,
+      "pooledJaccard": 0.347574
+    },
+    "gemini": {
+      "pairs": 283,
+      "sumIntersection": 1695,
+      "sumUnion": 4953,
+      "pooledJaccard": 0.342217
+    },
+    "claude": {
+      "pairs": 248,
+      "sumIntersection": 1251,
+      "sumUnion": 3229,
+      "pooledJaccard": 0.387426
+    },
+    "aioverviews": {
+      "pairs": 254,
+      "sumIntersection": 651,
+      "sumUnion": 2270,
+      "pooledJaccard": 0.286784
+    },
+    "aimode": {
+      "pairs": 210,
+      "sumIntersection": 306,
+      "sumUnion": 1078,
+      "pooledJaccard": 0.283859
+    }
+  },
+  "G": {
+    "cellsWithAnyConsensusDomain": 145,
+    "distinctConsensusDomains": 60,
+    "top10": [
+      {
+        "domain": "youtube.com",
+        "cells": 16
+      },
+      {
+        "domain": "vercel.com",
+        "cells": 10
+      },
+      {
+        "domain": "runrepeat.com",
+        "cells": 8
+      },
+      {
+        "domain": "cnbc.com",
+        "cells": 7
+      },
+      {
+        "domain": "nerdwallet.com",
+        "cells": 7
+      },
+      {
+        "domain": "garagegymreviews.com",
+        "cells": 6
+      },
+      {
+        "domain": "healthline.com",
+        "cells": 6
+      },
+      {
+        "domain": "ncoa.org",
+        "cells": 6
+      },
+      {
+        "domain": "slack.com",
+        "cells": 6
+      },
+      {
+        "domain": "wise.com",
+        "cells": 6
+      }
+    ]
+  },
+  "diagnostics": {
+    "files": 10,
+    "weekMismatch": [],
+    "duplicateRows": 0,
+    "rowsWithDupDomains": 0,
+    "rowsWithCaseOrWwwVariants": 0,
+    "rowsOtherEngineOrRole": 160,
+    "otherEngineRoleStatus": {
+      "copilot:proxy:failed": 160
+    },
+    "statusValues": {
+      "ok": 2363,
+      "failed": 37
+    },
+    "okEmptyWithCitedUrls": 36,
+    "weeksSeen": [
+      "2026-W36",
+      "2026-W37",
+      "2026-W38",
+      "2026-W39",
+      "2026-W40",
+      "2026-W41",
+      "2026-W42",
+      "2026-W43",
+      "2026-W44",
+      "2026-W45"
+    ]
+  }
+}

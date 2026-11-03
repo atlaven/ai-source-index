@@ -1,0 +1,262 @@
+{
+ "weeks": [
+  "2026-W36",
+  "2026-W37",
+  "2026-W38",
+  "2026-W39",
+  "2026-W40",
+  "2026-W41",
+  "2026-W42",
+  "2026-W43",
+  "2026-W44",
+  "2026-W45"
+ ],
+ "cells": 400,
+ "excluded": {
+  "ok_no_domain:aimode": 124,
+  "ok_no_domain:aioverviews": 59,
+  "ok_no_domain:claude": 55,
+  "ok_no_domain:gemini": 52,
+  "failed": 37,
+  "ok_no_domain:openai": 5
+ },
+ "pairwise": {
+  "openai|perplexity": {
+   "cells": 391,
+   "shared": 220,
+   "union": 4062,
+   "jaccard": 0.0542
+  },
+  "openai|gemini": {
+   "cells": 344,
+   "shared": 272,
+   "union": 5949,
+   "jaccard": 0.0457
+  },
+  "openai|claude": {
+   "cells": 311,
+   "shared": 200,
+   "union": 4581,
+   "jaccard": 0.0437
+  },
+  "openai|aioverviews": {
+   "cells": 333,
+   "shared": 151,
+   "union": 3825,
+   "jaccard": 0.0395
+  },
+  "openai|aimode": {
+   "cells": 273,
+   "shared": 123,
+   "union": 2497,
+   "jaccard": 0.0493
+  },
+  "perplexity|gemini": {
+   "cells": 345,
+   "shared": 415,
+   "union": 5248,
+   "jaccard": 0.0791
+  },
+  "perplexity|claude": {
+   "cells": 312,
+   "shared": 393,
+   "union": 3747,
+   "jaccard": 0.1049
+  },
+  "perplexity|aioverviews": {
+   "cells": 334,
+   "shared": 257,
+   "union": 3255,
+   "jaccard": 0.079
+  },
+  "perplexity|aimode": {
+   "cells": 272,
+   "shared": 174,
+   "union": 1938,
+   "jaccard": 0.0898
+  },
+  "gemini|claude": {
+   "cells": 277,
+   "shared": 527,
+   "union": 5078,
+   "jaccard": 0.1038
+  },
+  "gemini|aioverviews": {
+   "cells": 291,
+   "shared": 567,
+   "union": 4556,
+   "jaccard": 0.1245
+  },
+  "gemini|aimode": {
+   "cells": 235,
+   "shared": 352,
+   "union": 3117,
+   "jaccard": 0.1129
+  },
+  "claude|aioverviews": {
+   "cells": 263,
+   "shared": 277,
+   "union": 3462,
+   "jaccard": 0.08
+  },
+  "claude|aimode": {
+   "cells": 245,
+   "shared": 190,
+   "union": 2768,
+   "jaccard": 0.0686
+  },
+  "aioverviews|aimode": {
+   "cells": 238,
+   "shared": 267,
+   "union": 1794,
+   "jaccard": 0.1488
+  }
+ },
+ "spread_cells": 385,
+ "domain_question_pairs": 10634,
+ "engines_citing": {
+  "1": 8452,
+  "2": 1497,
+  "3": 492,
+  "4": 149,
+  "5": 34,
+  "6": 10
+ },
+ "share_one_engine": 0.7948,
+ "share_ge3": 0.0644,
+ "week_over_week_jaccard": {
+  "openai": 0.2728,
+  "perplexity": 0.3476,
+  "gemini": 0.3422,
+  "claude": 0.3874,
+  "aioverviews": 0.2868,
+  "aimode": 0.2839
+ },
+ "cited_by_4plus_engines_top": [
+  [
+   "youtube.com",
+   16
+  ],
+  [
+   "vercel.com",
+   10
+  ],
+  [
+   "runrepeat.com",
+   8
+  ],
+  [
+   "nerdwallet.com",
+   7
+  ],
+  [
+   "cnbc.com",
+   7
+  ],
+  [
+   "healthline.com",
+   6
+  ],
+  [
+   "ncoa.org",
+   6
+  ],
+  [
+   "slack.com",
+   6
+  ],
+  [
+   "garagegymreviews.com",
+   6
+  ],
+  [
+   "wise.com",
+   6
+  ],
+  [
+   "clickhouse.com",
+   5
+  ],
+  [
+   "reddit.com",
+   5
+  ],
+  [
+   "homesandgardens.com",
+   5
+  ],
+  [
+   "netlify.com",
+   5
+  ],
+  [
+   "zapier.com",
+   5
+  ],
+  [
+   "androidcentral.com",
+   4
+  ],
+  [
+   "bankrate.com",
+   4
+  ],
+  [
+   "onelittleweb.com",
+   4
+  ],
+  [
+   "kiplinger.com",
+   4
+  ],
+  [
+   "thegoodtrade.com",
+   4
+  ]
+ ],
+ "all_six": {
+  "cells": 177,
+  "domain_question_pairs": 5202,
+  "engines_citing": {
+   "1": 4005,
+   "2": 764,
+   "3": 293,
+   "4": 101,
+   "5": 29,
+   "6": 10
+  },
+  "share_one_engine": 0.7699
+ },
+ "solo_share": {
+  "openai": {
+   "domains": 2404,
+   "cited_by_no_other": 1847,
+   "share": 0.7683
+  },
+  "perplexity": {
+   "domains": 1764,
+   "cited_by_no_other": 914,
+   "share": 0.5181
+  },
+  "gemini": {
+   "domains": 4017,
+   "cited_by_no_other": 2648,
+   "share": 0.6592
+  },
+  "claude": {
+   "domains": 2776,
+   "cited_by_no_other": 1765,
+   "share": 0.6358
+  },
+  "aioverviews": {
+   "domains": 1905,
+   "cited_by_no_other": 985,
+   "share": 0.5171
+  },
+  "aimode": {
+   "domains": 882,
+   "cited_by_no_other": 293,
+   "share": 0.3322
+  }
+ }
+}
