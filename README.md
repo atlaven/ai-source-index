@@ -9,6 +9,8 @@ Every week we ask the same 40 buyer questions to six answer engines (ChatGPT, Pe
 
 Live index: https://promvia.app/ai-source-index
 
+Discussion: https://www.reddit.com/r/AISourceIndex/ (each Monday's results, a question of the day from these rows, and corrections)
+
 ## What is in here
 
 | Path | What it is |
