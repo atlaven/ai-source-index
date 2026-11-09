@@ -1,15 +1,17 @@
 {
  "license": "CC BY 4.0",
  "source": "https://promvia.app/ai-source-index",
- "analysisVersion": 2,
+ "analysisVersion": 3,
  "rules": [
   "a row with status 'failed' is coverage, never a citation: it cites nothing",
   "a failed row carries `failureClass` from a closed set: timeout, rate-limited, capacity-deferred, refused-credentials, refused-credit, blocked, wrong-question, no-answer-parsed, provider-error, ungrounded, region-unavailable, rejected-request, other — the class only, never the provider's own message",
   "a domain counts once per (question, engine) however many of its URLs that answer cited — `domains` is already deduped",
   "an engine with role 'proxy' (Bing, standing in for Copilot) keeps its own column and never enters the 'all' totals",
-  "`domains` is derived from `citedUrls`: grounding redirects and Google search/shopping links resolve to no domain and drop out"
+  "`domains` is derived from `citedUrls`: grounding redirects and Google search/shopping links resolve to no domain and drop out",
+  "an answer-engine row with `noAnswer: true` got no answer at all (e.g. Google showed no AI Overview); an `ok` row without it answered, with or without sources"
  ],
  "weeksAvailable": [
+  "2026-W46",
   "2026-W45",
   "2026-W44",
   "2026-W43",
@@ -896,6 +898,7 @@
      "engine": "aimode",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
@@ -1710,6 +1713,7 @@
      "engine": "aioverviews",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
@@ -3096,6 +3100,7 @@
      "engine": "aioverviews",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
@@ -3508,6 +3513,7 @@
      "engine": "aioverviews",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
@@ -3830,6 +3836,7 @@
      "engine": "aioverviews",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
@@ -5054,6 +5061,7 @@
      "engine": "aimode",
      "role": "answer",
      "status": "ok",
+     "noAnswer": true,
      "domains": [],
      "citedUrls": []
     },
