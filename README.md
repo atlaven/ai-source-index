@@ -20,6 +20,7 @@ Discussion: https://www.reddit.com/r/AISourceIndex/ (each Monday's results, a qu
 | `data/cited_urls.csv` | One row per engine answer and cited URL. |
 | `scripts/fetch.py` | Rebuilds everything in `data/` from the API. Standard library only. |
 | `analysis/persistence/` | How long a citation lasts, week over week (W36 to W41 2026): a Python analysis, an independent Node cross-check, and their outputs. |
+| `analysis/persistence-2026-11/` | The same persistence analysis over eleven weekly runs (W36 to W46 2026, 3 Sep to 9 Nov): the unchanged scripts with the week list extended, the raw rows, `results.json`, `rows.csv`, `urls.csv` and both outputs (the Node recount agrees on all 168 values). |
 | `analysis/question-shapes/` | Which sources each kind of buyer question cites (best, alternatives, compare, how to choose), W36 to W41 2026: `shapes.py`, an independent Node cross-check, `results.json`, a per-shape domain table and `summary.md`. |
 | `analysis/aio-aimode/` | Google AI Overviews and AI Mode, W36 to W41 2026: answers with no sources, per-question switching and the overlap between the two surfaces. A Python analysis, an independent Node cross-check and their outputs. |
 | `analysis/organic-vs-aio/` | Does Google's organic top 10 predict being cited by AI Overviews and AI Mode for the same question? 40 questions, runs of 28 Sep and 5 Oct 2026, organic top 10 of 6 Oct: `rows.csv`, `serp.csv`, `summary.md`. |
@@ -50,6 +51,11 @@ From `analysis/persistence/` (six weekly runs, 3 September to 5 October 2026):
 - 48.0% of the domains an engine cited for a question were cited again for the same question the next week (3,335 of 6,947; 95% interval 46.8 to 49.2%).
 - A first-time citation came back the next week 27.3% of the time; after two weeks in a row, 44.5%.
 - youtube.com and reddit.com were the two most cited domains in all six runs.
+
+From `analysis/persistence-2026-11/` (eleven weekly runs, 3 September to 9 November 2026):
+
+- 45.7% of the domains an engine cited for a question were cited again for the same question the next week (6,330 of 13,864); ten runs later, 25.6% (363 of 1,416).
+- In the week the index moved ChatGPT from gpt-4o-mini to gpt-5-mini (19 to 26 October), ChatGPT cited 15 of the 255 domains it had cited the week before again: 5.9%.
 
 From `analysis/question-shapes/`:
 
