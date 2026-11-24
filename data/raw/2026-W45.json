@@ -11,6 +11,7 @@
   "an answer-engine row with `noAnswer: true` got no answer at all (e.g. Google showed no AI Overview); an `ok` row without it answered, with or without sources"
  ],
  "weeksAvailable": [
+  "2026-W48",
   "2026-W47",
   "2026-W46",
   "2026-W45",
